@@ -1,5 +1,9 @@
 package dataLayer;
 
-public class GroupRepository {
+import java.util.List;
 
+import entities.Group;
+
+public interface GroupRepository {
+	List<Group> findAll();
 }
